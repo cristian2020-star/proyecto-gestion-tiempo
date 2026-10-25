@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión del Tiempo y Matemáticas | TSG Cardenal Sancha 2026</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0f172a',
+                        brandBlue: '#1e3a8a',
+                        brandLight: '#f8fafc',
+                        brandAccent: '#2563eb',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brandLight text-gray-800 font-sans leading-relaxed">
+
+    <!-- Barra de Navegación Fija -->
+    <header class="bg-brandDark text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="bg-brandAccent text-white font-bold px-3 py-1 rounded-md text-sm">11A</span>
+                <span class="font-bold tracking-wide text-sm md:text-base">Colegio Cardenal Sancha</span>
+            </div>
+            <nav class="hidden lg:flex space-x-5 text-xs font-medium uppercase tracking-wider">
+                <a href="#inicio" class="hover:text-brandAccent transition">Inicio</a>
+                <a href="#problema" class="hover:text-brandAccent transition">Problema</a>
+                <a href="#objetivos" class="hover:text-brandAccent transition">Objetivos</a>
+                <a href="#estado-arte" class="hover:text-brandAccent transition">Estado del Arte</a>
+                <a href="#marco" class="hover:text-brandAccent transition">Marco Teórico</a>
+                <a href="#metodologia" class="hover:text-brandAccent transition">Metodología</a>
+                <a href="#resultados" class="hover:text-brandAccent transition">Resultados</a>
+                <a href="#recursos" class="hover:text-brandAccent transition">Recursos</a>
+                <a href="#experiencia" class="hover:text-brandAccent transition">Experiencia</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="bg-gradient-to-br from-blue-950 via-brandBlue to-blue-900 text-white py-20 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="bg-blue-800/80 text-blue-200 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider border border-blue-700">Trabajo Significativo de Grado • 2026</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold mt-6 mb-4 leading-tight">
+                El Impacto de la Gestión Adecuada del Tiempo en el Desarrollo de la Asignatura de Matemáticas
+            </h1>
+            <p class="text-base md:text-lg text-blue-100 max-w-2xl mx-auto mb-8">
+                Un análisis profundo sobre la procrastinación, el uso de dispositivos y la planificación en los estudiantes de grado décimo.
+            </p>
+            <div class="bg-blue-900/60 backdrop-blur-sm p-6 rounded-2xl border border-blue-700 max-w-2xl mx-auto text-sm grid grid-cols-1 md:grid-cols-2 gap-4 text-left shadow-lg">
+                <div><strong>Estudiantes Investigadores:</strong><br> Cristian Camilo Barrero Sánchez & Juan José Jagua González</div>
+                <div><strong>Curso y Sede:</strong> Grado 11A, Colegio Cardenal Sancha, Bogotá</div>
+                <div><strong>Docentes Asesores:</strong> María Isabel Vargas & John Luis Carreño</div>
+                <div><strong>Institución:</strong> Colegio Cardenal Sancha</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Descripción y Planteamiento del Problema -->
+    <section id="problema" class="max-w-6xl mx-auto py-16 px-4">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 md:p-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-6 flex items-center">
+                <span class="bg-blue-100 text-brandBlue p-2 rounded-xl mr-3 text-xl">📌</span> 1. Descripción y Planteamiento del Problema
+            </h2>
+            <p class="text-gray-600 mb-4">
+                La investigación surge ante la necesidad de identificar cómo los estudiantes de grado décimo gestionan su tiempo en función de la asignatura de matemáticas (específicamente en el área de trigonometría). Se selecciona este grado por la alta cantidad de responsabilidades académicas y porque los jóvenes se encuentran en un intervalo de edad donde el uso desmedido de dispositivos electrónicos es crítico, derivando en la procrastinación.
+            </p>
+            <p class="text-gray-600 mb-6">
+                A pesar de contar con las competencias cognitivas necesarias, se observan considerables niveles de estrés, acumulación de trabajos y reprobación de evaluaciones debido a una deficiente planificación asertiva. Autores clave como Covey (2003) señalan que la clave es ordenar prioridades en la agenda, mientras que Fiore (2007) define la procrastinación como un mecanismo para afrontar el estrés asociado con el inicio o finalización de una tarea.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6 mt-6">
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+                    <h3 class="font-bold text-brandBlue mb-2 text-lg">Pregunta de Investigación</h3>
+                    <p class="text-sm text-gray-700 italic">¿Qué estrategias de gestión del tiempo son más pertinentes para el desarrollo práctico de la asignatura de Matemáticas en los estudiantes de grado décimo del Colegio Cardenal Sancha?</p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+                    <h3 class="font-bold text-brandBlue mb-2 text-lg">Justificación del Estudio</h3>
+                    <p class="text-sm text-gray-700">Se justifica por la necesidad de evaluar si las técnicas de aprendizaje son efectivas para lograr un equilibrio entre la organización del tiempo, el rendimiento académico en trigonometría y las actividades de ocio personal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objetivos -->
+    <section id="objetivos" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-8 text-center">🎯 2. Objetivos de la Investigación</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-lg text-brandBlue mb-3">Objetivo General</h3>
+                    <p class="text-gray-600 text-sm">Determinar las estrategias de gestión del tiempo más pertinentes en el desarrollo práctico en la asignatura de Matemáticas en los estudiantes de grado décimo.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-lg text-brandBlue mb-3">Objetivos Específicos</h3>
+                    <ul class="text-gray-600 text-sm space-y-2 list-disc pl-5">
+                        <li>Identificar dificultades asociadas a la deficiente gestión del tiempo que afectan la obtención de conocimiento matemático.</li>
+                        <li>Analizar las estrategias aplicadas por los estudiantes para la gestión adecuada de su tiempo.</li>
+                        <li>Relacionar los hábitos de tiempo con el cumplimiento de actividades propuestas para matemáticas.</li>
+                        <li>Proponer estrategias y herramientas prácticas para mejorar la gestión del tiempo en el área de matemáticas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estado del Arte -->
+    <section id="estado-arte" class="max-w-6xl mx-auto py-16 px-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-4 text-center">📚 3. Estado del Arte (Síntesis Crítica)</h2>
+        <p class="text-center text-gray-600 mb-10 text-sm">Se analizaron 8 fuentes bibliográficas fundamentales para estructurar el marco conceptual del proyecto:</p>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 1 (2026)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">González Cueva et al.</h3>
+                <p class="text-xs text-gray-500 mb-2">Universidad Estatal de Milagro (UNEMI)</p>
+                <p class="text-xs text-gray-600">Demuestra que el uso desmedido de tecnologías y pantallas en el tiempo libre sin supervisión familiar afecta negativamente el rendimiento académico y la concentración en el aula.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 2 (2021)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Harvard Business Review</h3>
+                <p class="text-xs text-gray-500 mb-2">Reverte Management</p>
+                <p class="text-xs text-gray-600">Enfatiza en la priorización estricta, rechazar tareas secundarias y proteger el tiempo de enfoque eliminando interrupciones digitales y físicas.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 3 (2021)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Igor Bustinduy</h3>
+                <p class="text-xs text-gray-500 mb-2">Editorial UOC (Método ATM)</p>
+                <p class="text-xs text-gray-600">Propone la gestión ágil del tiempo mediante ciclos temporales cortos y bloques semanales flexibles que permiten absorber imprevistos sin perder el enfoque.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 4 (2023)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Luis Herrera Madiedo</h3>
+                <p class="text-xs text-gray-500 mb-2">IC Editorial</p>
+                <p class="text-xs text-gray-600">Conecta la logística y el control de los espacios físicos/materiales con el tiempo. El cronograma colapsa si no se dispone de las herramientas en el minuto acordado.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 5 (2024)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Miquel Nadal</h3>
+                <p class="text-xs text-gray-500 mb-2">Desclée De Brouwer</p>
+                <p class="text-xs text-gray-600">Basado en neurociencia y psicología cognitiva. Explica que la planificación reduce el estrés y que la productividad depende de entrenar la mente para priorizar y eliminar tareas innecesarias.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 6 (2024)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Marc Zao-Sanders</h3>
+                <p class="text-xs text-gray-500 mb-2">Editorial Tendencias (Timeboxing)</p>
+                <p class="text-xs text-gray-600">Introduce el método Timeboxing: asignar bloques temporales definidos a una sola tarea y enfocarse en ella, evitando la multitarea que destruye la concentración.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 7 (2023)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Diana Muñoz</h3>
+                <p class="text-xs text-gray-500 mb-2">Ediciones Obreron</p>
+                <p class="text-xs text-gray-600">Destaca que los problemas de productividad se deben a la falta de planificación y desorden de elementos. Organizar el espacio de trabajo reduce el tiempo de búsqueda.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 md:col-span-2 lg:col-span-2">
+                <span class="text-xs font-bold text-brandAccent bg-blue-50 px-2 py-1 rounded">Ítem 8 (2020)</span>
+                <h3 class="font-bold text-brandBlue mt-2 mb-1">Calderón et al.</h3>
+                <p class="text-xs text-gray-500 mb-2">Artseduca (Investigación aplicada con 887 estudiantes)</p>
+                <p class="text-xs text-gray-600">Analiza la relación entre la personalidad adolescente y la gestión del tiempo. Demuestra empíricamente que la responsabilidad es el factor con mayor influencia para reducir la procrastinación, seguido de la cordialidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marco Teórico -->
+    <section id="marco" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-8 text-center">📖 4. Marco Teórico</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-xl text-brandBlue mb-3">Evolución Histórica y Científica</h3>
+                    <p class="text-sm text-gray-600 mb-4">
+                        Los antecedentes se remontan al siglo XX con Frederick W. Taylor y la optimización del trabajo industrial. Hoy en día, autores como Chavarría Briceño (2024) definen la gestión del tiempo como el conjunto de habilidades para optimizar recursos y alcanzar objetivos de manera eficiente.
+                    </p>
+                    <p class="text-sm text-gray-600">
+                        El marco actual se apoya en Miquel Nadal, quien vincula la planificación con las funciones ejecutivas del cerebro y la neurociencia, y en Marc Zao-Sanders con el Timeboxing para mitigar la fatiga por interrupciones constantes.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-xl text-brandBlue mb-3">Integración Conceptual</h3>
+                    <p class="text-sm text-gray-600 mb-4">
+                        Ambos enfoques se complementan: Nadal enfatiza el entrenamiento de las capacidades cognitivas y la atención sostenida, mientras que Zao-Sanders aporta la estructura práctica mediante bloques de tiempo calendarizados.
+                    </p>
+                    <p class="text-sm text-gray-600">
+                        Esto sustenta la investigación al demostrar que la deficiente gestión del tiempo en adolescentes no es solo falta de organización, sino un problema de autorregulación, atención y control de distractores digitales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología -->
+    <section id="metodologia" class="max-w-6xl mx-auto py-16 px-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-6 text-center">🔬 5. Diseño Metodológico</h2>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 md:p-12">
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-5 bg-blue-50 rounded-xl border border-blue-100">
+                    <h3 class="font-bold text-brandBlue mb-2">Enfoque y Nivel</h3>
+                    <p class="text-sm text-gray-600"><strong>Cualitativo y Explicativo:</strong> Permite comprender fenómenos sociales y establecer las causas que derivan en una inadecuada gestión del tiempo en los estudiantes.</p>
+                </div>
+                <div class="p-5 bg-blue-50 rounded-xl border border-blue-100">
+                    <h3 class="font-bold text-brandBlue mb-2">Diseño y Población</h3>
+                    <p class="text-sm text-gray-600"><strong>De campo y transversal:</strong> Población finita de 12 estudiantes de décimo del Colegio Cardenal Sancha. Muestra final de 7 estudiantes (debido a limitaciones legales por falta de firma de consentimientos informados de 5 acudientes).</p>
+                </div>
+                <div class="p-5 bg-blue-50 rounded-xl border border-blue-100">
+                    <h3 class="font-bold text-brandBlue mb-2">Técnica e Instrumento</h3>
+                    <p class="text-sm text-gray-600"><strong>Entrevista semiestructurada:</strong> Guía de preguntas abiertas evaluadas por expertos psicólogos y transcritas mediante herramientas digitales (TurboScribe / Sonix).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultados y Gráficas Estadísticas -->
+    <section id="resultados" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-4 text-center">📊 6. Resultados y Análisis de Datos</h2>
+            <p class="text-center text-gray-600 mb-10 text-sm">A partir de las entrevistas aplicadas, se tabularon los patrones de respuesta en tres áreas críticas:</p>
+            
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-brandBlue mb-4 text-center">Factores de Procrastinación</h3>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex justify-between items-center"><span>Desidia / Pereza</span> <span class="font-bold text-red-600">45%</span></li>
+                        <li class="flex justify-between items-center"><span>Uso de Celular y Redes</span> <span class="font-bold text-purple-600">30%</span></li>
+                        <li class="flex justify-between items-center"><span>Percepción de Dificultad</span> <span class="font-bold text-blue-600">15%</span></li>
+                        <li class="flex justify-between items-center"><span>Compromisos Sociales</span> <span class="font-bold text-gray-600">10%</span></li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-brandBlue mb-4 text-center">Criterios de Priorización</h3>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex justify-between items-center"><span>Urgencia / Fecha Límite</span> <span class="font-bold text-blue-600">35%</span></li>
+                        <li class="flex justify-between items-center"><span>Dificultad del Trabajo</span> <span class="font-bold text-green-600">30%</span></li>
+                        <li class="flex justify-between items-center"><span>Compromiso previo / Tema</span> <span class="font-bold text-indigo-600">20%</span></li>
+                        <li class="flex justify-between items-center"><span>Tiempo Disponible</span> <span class="font-bold text-orange-600">15%</span></li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-brandBlue mb-4 text-center">Estrategias Propuestas</h3>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex justify-between items-center"><span>Creación de Horarios/Rutinas</span> <span class="font-bold text-orange-600">40%</span></li>
+                        <li class="flex justify-between items-center"><span>Eliminar Distractores Digitales</span> <span class="font-bold text-purple-600">25%</span></li>
+                        <li class="flex justify-between items-center"><span>Mayor Atención en Clases</span> <span class="font-bold text-blue-600">20%</span></li>
+                        <li class="flex justify-between items-center"><span>Anticipación de Tareas</span> <span class="font-bold text-green-600">15%</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-brandBlue text-white p-8 rounded-2xl shadow-lg">
+                <h3 class="text-xl font-bold mb-3">💡 Hallazgo Sorprendente</h3>
+                <p class="text-blue-100 text-sm">
+                    Se descubrió que los estudiantes no solo organizan su tiempo según el reloj, sino que dependen fuertemente de la <strong>comprensión previa del tema</strong>. Muchos consultan videos educativos, realizan ejercicios previos o buscan asesoría externa antes de comprometerse a realizar la tarea de matemáticas. Esto demuestra que la gestión del tiempo está profundamente entrelazada con el dominio cognitivo de la materia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos y Presupuesto -->
+    <section id="recursos" class="max-w-6xl mx-auto py-16 px-4">
+        <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-8 text-center">📋 7. Recursos y Presupuesto Financiero</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                <h3 class="font-bold text-lg text-brandBlue mb-4">Herramientas Digitales y Tecnológicas</h3>
+                <ul class="space-y-2 text-sm text-gray-600 list-disc pl-5">
+                    <li><strong>Google Workspace (Docs, Sheets, Drive):</strong> Redacción bajo normas APA y tabulación de datos.</li>
+                    <li><strong>Canva:</strong> Diseño de soportes visuales, cronogramas y diagramas.</li>
+                    <li><strong>TurboScribe / Sonix:</strong> Transcripción automatizada de audios de entrevistas.</li>
+                    <li><strong>Biblioteca Luis Ángel Arango (BLAA):</strong> Búsqueda especializada de fuentes académicas.</li>
+                    <li><strong>Gemini:</strong> Optimización de conectores, redacción y formalización de ideas.</li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200">
+                <h3 class="font-bold text-lg text-brandBlue mb-4">Presupuesto Total: $519.000 COP</h3>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li><strong>Resma de papel bond y copias:</strong> $22.850 COP</li>
+                    <li><strong>Bolígrafos y cuadernos de campo:</strong> $9.000 COP</li>
+                    <li><strong>Servicio de Internet (10 meses):</strong> $450.000 COP</li>
+                    <li><strong>Transporte y Desplazamientos:</strong> $21.000 COP</li>
+                    <li><strong>Transcriptor de Entrevistas:</strong> $32.000 COP</li>
+                    <li class="pt-3 border-t mt-2 font-bold text-brandBlue">Financiación: Recursos propios ($44.000) | Apoyo padres ($475.000)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Personal -->
+    <section id="experiencia" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 md:p-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-brandBlue mb-6">🎓 8. Experiencia Personal como Investigadores (Grado 11A)</h2>
+                <p class="text-gray-600 text-sm mb-4">
+                    Iniciamos este proceso con ideas muy ingenuas, pensando que investigar era simplemente redactar unas preguntas y obtener respuestas rápidas. Sin embargo, nos enfrentamos a la cruda realidad metodológica y legal: la reducción de nuestra muestra de 12 a 7 estudiantes por falta de firmas en los consentimientos informados nos enseñó el valor absoluto de la ética investigativa.
+                </p>
+                <p class="text-gray-600 text-sm mb-4">
+                    Analizar las transcripciones y contrastarlas con autores como Miquel Nadal y Marc Zao-Sanders fue un reto complejo que puso a prueba nuestra propia capacidad de organizar el tiempo frente a las exigencias de undécimo grado. Aprendimos a trabajar en equipo de manera real, a superar el miedo a equivocarnos y a entender que la investigación es un proceso de construcción constante.
+                </p>
+                <div class="bg-blue-50 border-l-4 border-brandAccent p-4 text-sm text-gray-700 italic">
+                    "Recomendamos a los futuros estudiantes no temerle a la imprevisibilidad, gestionar sus tiempos con rigor desde el primer día y aprovechar cada dificultad como una oportunidad de aprendizaje." — Cristian Camilo Barrero & Juan José Jagua (11A).
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-brandDark text-white py-8 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 - Colegio Cardenal Sancha, Bogotá | Trabajo Significativo de Grado (TSG)</p>
+            <p class="text-gray-400 text-xs mt-2">Página web intuitiva y completa desarrollada para el proyecto de investigación de grado undécimo.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
